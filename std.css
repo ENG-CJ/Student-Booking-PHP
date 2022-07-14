@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f4f4f4;
+}
+.title{
+    margin: 50px 120px 0px 120px;
+    font-family: poppins;
+    color: #1b2b2b;
+}
+.container{
+    background-color: white;
+    max-width: 900px;
+    padding: 20px;
+    margin: 20px 120px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+    
+}
+.container .form_group{
+   margin-bottom: 15px;
+}
+.container .form_group input{
+  display: block;
+  margin: 3px 0px;
+  width: 100%;
+  padding: 5px;
+  font-family: poppins;
+  color: gray;
+  border-radius: 4px;
+  border: 1px solid;
+  outline: none;
+  border-color: rgb(178, 174, 174);
+}
+.container .form_group label{
+    font-family: sans-serif;
+    color: gray;
+    font-weight: 650;
+
+}
+button.save{
+    background-color: rgb(82, 159, 82);
+    width: 120px;
+    border: none;
+    border-radius: 4px;
+    padding:10px;
+    font-family: poppins;
+    color: white;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+button.save:hover{
+    background-color: rgb(117, 182, 117);
+}
+.title p{
+    color: rgb(158, 158, 158);
+    font-family: sans-serif;
+}
+.copy{
+    margin: 20px 0px;
+    text-align: center;
+}
+.copy p{
+    font-family: poppins;
+    font-size: 20px;
+    color: rgb(153, 149, 149);
+    font-weight: 700;
+}
+

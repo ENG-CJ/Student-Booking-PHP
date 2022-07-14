@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+   
+    background-color: rgb(236, 233, 233);
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0px 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(133, 125, 125);
+    font-family: poppins;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    padding: 7px;
+}
+nav ul li a:hover{
+    border-radius: 4px;
+    background-color: azure;
+}
+
+.get{
+    height: 90vh;
+ 
+   
+}
+.header{
+    margin: 70px 80px 0px 60px;
+}
+.header h1{
+    font-family: poppins;
+    font-size: 40px;
+    color: rgb(99, 86, 86);
+}
+.get .row{
+    display: flex;
+    align-items: center;
+}
+.get .col-1{
+    flex : 2;
+}
+.get .col-2{
+    flex : 1;
+}
+.image{
+
+    margin: 40px 20px 0px 20px;
+}
+.get .col-2 .image img{
+    object-fit: cover;
+    width: 100%;
+}
+.buttons{
+    display: flex;
+    padding: 20px 0px;
+}
+.buttons .login{
+    margin: 0px 10px;
+    width: 120px;
+    padding: 6px;
+    border: 1px solid green;
+    outline: none;
+    border-radius: 8px;
+    background-color: transparent;
+    font-family: poppins;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.buttons .login:hover{
+    background-color: green;
+    color: white;
+}
+.buttons  .register{
+   
+   
+   width: 120px;;
+  border: none;
+    outline: none;
+    border-radius: 8px;
+    background-color: rgb(14, 159, 63);
+    font-family: poppins;
+    cursor: pointer;
+   
+    transition: 0.5s ease-in-out;
+}
+
+.buttons .register a{
+    color: white;
+    text-decoration: none;
+}
+.courses{
+   
+   background-color: rgb(62, 73, 83);
+   padding: 20px;
+}
+.courses .course_card{
+    background-color: white;
+    max-width: 300px;
+    border-radius: 15px;
+    padding: 5px;
+    
+}
+.course_card .img{
+    text-align: center;
+}
+.course_card .img img{
+    width: 200px;
+   
+}
+
+.container_course{
+   
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+    padding: 100px;
+    text-align: center;
+}
+.tit,.price,.buy{
+    margin: 0px 70px ;
+}
+.tit h4{
+    font-family: sans-serif;
+    color: rgb(137, 127, 127);
+    font-size: 20px;
+}
+.tit p{
+    color: rgb(152, 117, 117);
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.price{
+    padding: 10px 0px;
+}
+.price h4{
+    font-family: poppins;
+    font-size: 20px;
+    color: gray;
+    font-weight: 700;
+}
+.buy {
+    padding: 4px 0px;
+}
+.buy button{
+    width: 120px;
+    border: none;
+    background-color: #6c3fff;
+    font-family: poppins;
+    padding: 9px;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
+.titles{
+    color: white;
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+}
+.titles h1{
+    font-family: poppins;
+}
+.titles .con p{
+    color: rgb(223, 223, 223);
+    font-family: sans-serif;
+}

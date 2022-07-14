@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f4f4f4;
+}
+.title,.con_table{
+    margin: 50px 120px 0px 120px;
+    font-family: poppins;
+    color: #1b2b2b;
+}
+.title p{
+    color: gray;
+    
+}
+
+a{
+    color: rgb(144, 143, 143);
+    font-family: poppins;
+    font-weight: 640;
+    text-decoration: none;
+}
